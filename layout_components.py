@@ -9,14 +9,6 @@ PLOTLY_LOGO = "https://images.plot.ly/logo/new-branding/plotly-logomark.png"
 
 header = html.Div()
 
-interval = \
-    dcc.Interval(
-        id='interval-component',
-        interval=5 * 1000,  # in milliseconds
-        n_intervals=0
-    )
-
-
 def news_cards_generator(news_feed):
     news_cards = \
         [

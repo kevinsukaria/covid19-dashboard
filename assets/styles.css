@@ -1,10 +1,10 @@
-#container {
+container {
   padding: 0 1em;
 }
 
 #news-feeds {
   overflow-y: auto;
-  height: 1356px;
+  height: 1400px;
 }
 
 #geo-chart {
@@ -31,6 +31,7 @@
 #title, .nav-tabs{
   background-color:black;
   text-align: center;
+  padding: 0.3em;
 }
 
 #title{
@@ -62,6 +63,9 @@
   align-items: center;
 }
 
+table{
+  overflow-x: auto;
+}
 .col-8, .col-4{
   padding: 0;
 }
@@ -70,6 +74,7 @@
   @include media-breakpoint-only(lg) {
   column-count: 4;
 }
+
 }
 
 .card {
@@ -167,8 +172,17 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid darkgrey;
 }
 
+hr{
+  color: white;
+}
+
+#gform{
+  border: none;
+}
+
 #metric{
   margin-left: 0;
+  margin-top:0.5em;
 }
 #news_search{
   padding:1em;
@@ -186,4 +200,8 @@ body::-webkit-scrollbar-thumb {
 #news-feeds::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid darkgrey;
+}
+
+#dash{
+  align-self: right;
 }

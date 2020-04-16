@@ -139,7 +139,7 @@ def update_data(n_clicks):
             animate=False
         ),
         html.H3('Regional Information'),
-        dbc.Table.from_dataframe(table, striped=True, bordered=True, hover=True),
+        dbc.Table.from_dataframe(table, striped=True, bordered=True, hover=True,responsive=True),
     ]
     return output
 

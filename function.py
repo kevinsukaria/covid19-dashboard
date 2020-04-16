@@ -7,7 +7,7 @@ url = "https://covid-19-data.p.rapidapi.com/country/all"
 
 headers = {
     'x-rapidapi-host': "covid-19-data.p.rapidapi.com",
-    'x-rapidapi-key': "INSERT YOUR API KEY HERE"
+    'x-rapidapi-key': "896405cd4dmsh37ab260e7e7121dp1bdf68jsnb713de9f2bb8"
 }
 br = '<br>'
 

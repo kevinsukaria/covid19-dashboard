@@ -139,7 +139,7 @@ def update_data(n_clicks):
             animate=False
         ),
         html.H3('Regional Information'),
-        dbc.Table.from_dataframe(table, striped=True, bordered=True, hover=True,responsive=True),
+        dbc.Table.from_dataframe(table, striped=True, bordered=True, hover=True, responsive=True),
     ]
     return output
 
@@ -168,4 +168,4 @@ def country_filter(value):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
